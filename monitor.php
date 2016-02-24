@@ -30,7 +30,7 @@ function update($memcache, $time)
                 $anchor["platform"] == '龙珠直播') {
                 $html = httpRequest($anchor["url"]);
             }
-            echo $anchor["platform"] . "\t";
+            //echo $anchor["platform"] . "\t";
             if ($anchor["platform"] == "熊猫TV" || $anchor["platform"] == "战旗TV" ||
                 $anchor["platform"] == "全民直播" || $anchor["platform"] == "火猫TV") {
                 # 正在直播的条件 : 正在直播列表中存在该房间
@@ -55,7 +55,8 @@ function update($memcache, $time)
                         $url .= 'how';
                     }
                 }
-                $room_name = explode('/', $anchor["url"])[3];
+                $domain = explode('/', $anchor["url"]);
+                $room_name = $domain[3];
                 $subject = httpRequest($url);
                 if (preg_match('/' . $room_name . '/', $subject)) {
                     $memcache->set($anchor["name"], 1, 0, $time); // 1 代表在直播
