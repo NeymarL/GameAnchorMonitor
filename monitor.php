@@ -134,12 +134,12 @@ function display($all_anchors, $memcache, $game_type)
             foreach ($type_anchors["anchors"] as $anchor) {
                 $state = $memcache->get($anchor["name"]);
                 if (empty($state) || $state == 0) {
-                    $offlne .= '<div><span style="width:200px;float:left;font-size:2.2vw">' . $anchor["name"] . '</span><span style="color:#666666;width:40px;"><strong>离线</strong></span><span style="margin-left:35px;font-size:2.2vw">
+                    $offlne .= '<div><span style="width:350px;float:left;font-size:3vw">' . $anchor["name"] . '</span><span style="color:#666666;width:40px;"><strong>离线</strong></span><span style="margin-left:35px;font-size:3vw">
                         ' . $anchor["url"] . '</span></div>';
                 } else {
-                    $online .= '<div><span style="width:200px;float:left;"><strong>' . $anchor["name"] . '</strong></span>
+                    $online .= '<div><span style="width:350px;float:left;font-size:3vw"><strong>' . $anchor["name"] . '</strong></span>
                             <span style="color:red;width:40px;"><strong>直播</strong></span>
-                            <span style="margin-left:35px; font-size:2.2vw">' . $anchor["url"] . '</span></div>';
+                            <span style="margin-left:35px; font-size:3vw">' . $anchor["url"] . '</span></div>';
                 }
             }
         }
