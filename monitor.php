@@ -133,7 +133,7 @@ function display($all_anchors, $memcache, $game_type)
                     $offlne .= '<div><span style="width:125px;float:left;">' . $anchor["name"] . '</span><span style="color:#666666;width:40px;"><strong>离线</strong></span><span style="margin-left:25px;">
                         ' . $anchor["url"] . '</span></div>';
                 } else {
-                    $online .= '<div><span style="width:125px;float:left;"><strong>' . $anchor["name"] . '</strong></span>
+                    $online .= '<div><span style="width:145px;float:left;"><strong>' . $anchor["name"] . '</strong></span>
                             <span style="color:red;width:40px;"><strong>直播</strong></span>
                             <span style="margin-left:25px;">' . $anchor["url"] . '</span></div>';
                 }
