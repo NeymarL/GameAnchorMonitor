@@ -59,7 +59,7 @@ function update($memcache, $time)
                 $room_name = $domain[3];
                 if ($anchor["platform"] == "火猫TV") {
                     // huomao's url is http://http://www.huomaotv.cn/live/rooo_number
-                    $rooo_name = $anchor["name"] . '教练mikasa\s*</span>\s*<span class="view">[0-9,]+</span>\s*</p>\s*<i class="off" style="width: 230px; height: 129.375px;"></i><em';
+                    $rooo_name = $anchor["name"] . '\s*</span>\s*<span class="view">[0-9,]+</span>\s*</p>\s*<i class="off" style="width: 230px; height: 129.375px;"></i><em';
                 }
                 $subject = httpRequest($url);
                 if (preg_match('#' . $room_name . '#', $subject)) {
