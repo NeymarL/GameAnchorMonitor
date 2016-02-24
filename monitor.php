@@ -130,10 +130,10 @@ function display($all_anchors, $memcache, $game_type)
             foreach ($type_anchors["anchors"] as $anchor) {
                 $state = $memcache->get($anchor["name"]);
                 if (empty($state) || $state == 0) {
-                    $offlne .= '<div><span style="width:150px;float:left;">' . $anchor["name"] . '</span><span style="color:#666666;width:40px;"><strong>离线</strong></span><span style="margin-left:25px;">
+                    $offlne .= '<div><span style="width:170px;float:left;">' . $anchor["name"] . '</span><span style="color:#666666;width:40px;"><strong>离线</strong></span><span style="margin-left:25px;">
                         ' . $anchor["url"] . '</span></div>';
                 } else {
-                    $online .= '<div><span style="width:150px;float:left;"><strong>' . $anchor["name"] . '</strong></span>
+                    $online .= '<div><span style="width:170px;float:left;"><strong>' . $anchor["name"] . '</strong></span>
                             <span style="color:red;width:40px;"><strong>直播</strong></span>
                             <span style="margin-left:25px;">' . $anchor["url"] . '</span></div>';
                 }
