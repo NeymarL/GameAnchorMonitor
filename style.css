@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+.bar-nav {
+    top: 0;
+}
+.bar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    height: 44px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.segmented-control {
+    position: relative;
+    display: table;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.segmented-control .control-item {
+    display: table-cell;
+    width: 1%;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    overflow: hidden;
+    line-height: 1;
+    color: #333;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-left: 1px solid #ccc;
+}
+.segmented-control .control-item:active {
+    background-color: #eee;
+}
+.bar .segmented-control {
+    top: 7px;
+    margin: 0 auto;
+}
+.segmented-control .control-item.active {
+    background-color: #ccc;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+a:active {
+    color: #3071a9;
+}
+b, strong {
+    font-weight: 700;
+}
+.content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: #fff;
+}
+.content.fade {
+    left: 0;
+    opacity: 0;
+}
+
+.content.fade.in {
+    opacity: 1;
+}
+
+.content.sliding {
+    z-index: 2;
+    -webkit-transition: -webkit-transform .4s;
+    -moz-transition: -moz-transform .4s;
+    transition: transform .4s;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.content.sliding.left {
+    z-index: 1;
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+}
+
+.content.sliding.right {
+    z-index: 3;
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+}
+.bar-nav ~ .content {
+    padding-top: 45px;
+}
+.divOnlineContent{
+    margin:0 auto;width:280px;margin-top:15px;
+}
+.divOfflineContent{
+    margin:0 auto;width:280px;margin-top:10px;
+}

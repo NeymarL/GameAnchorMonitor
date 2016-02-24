@@ -1,0 +1,345 @@
+[
+    {
+        "type" : "DOTA2",
+        "anchors" :
+        [
+            {
+                "name" : "叁生叁誓",
+                "platform" : "熊猫TV",
+                "url" : "http://www.panda.tv/16789"
+            },
+            {
+                "name" : "伍声2009",
+                "platform" : "熊猫TV",
+                "url" : "http://www.panda.tv/2009"
+            },
+            {
+                "name" : "Pc冷冷",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/20360"
+            },
+            {
+                "name" : "张宁_xiao8",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/64609"
+            },
+            {
+                "name" : "天使焦520",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/97376"
+            },
+            {
+                "name" : "820邹倚天",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/507882"
+            },
+            {
+                "name" : "burning徐志雷",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/319598"
+            },
+            {
+                "name" : "ZSMJ727974758",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/52876"
+            },
+            {
+                "name" : "yyfyyf",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/58428"
+            },
+            {
+                "name" : "luoyinqi",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/15312"
+            },
+            {
+                "name" : "IG430",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/27836"
+            },
+            {
+                "name" : "sjq老鼠",
+                "platform" : "战旗TV",
+                "url" : "http://www.zhanqi.tv/laoshusjq"
+            },
+            {
+                "name" : "DD",
+                "platform" : "战旗TV",
+                "url" : "http://www.zhanqi.tv/naigege"
+            },
+            {
+                "name" : "Newbee_Hao",
+                "platform" : "战旗TV",
+                "url" : "http://www.zhanqi.tv/newbeehao"
+            },
+            {
+                "name" : "毛毛鸭",
+                "platform" : "战旗TV",
+                "url" : "http://www.zhanqi.tv/mmy666"
+            },
+            {
+                "name" : "龙弟弟",
+                "platform" : "虎牙直播",
+                "url" : "http://www.huya.com/longdd"
+            },
+            {
+                "name" : "Pis",
+                "platform" : "虎牙直播",
+                "url" : "http://www.huya.com/pis"
+            },
+            {
+                "name" : "Zhou陈尧",
+                "platform" : "虎牙直播",
+                "url" : "http://www.huya.com/zhou/"
+            },
+            {
+                "name" : "教练mikasa",
+                "platform" : "火猫TV",
+                "url" : "http://www.huomaotv.cn/live/128"
+            }
+        ]
+    },
+    {
+        "type" : "LOL",
+        "anchors" :
+        [
+            {
+                "name" : "英雄联盟职业联赛",
+                "platform" : "龙珠直播",
+                "url" : "http://star.longzhu.com/lpl"
+            },
+            {
+                "name" : "PLU小于",
+                "platform" : "龙珠直播",
+                "url" : "http://star.longzhu.com/120"
+            },
+            {
+                "name" : "TGA STAR 米勒",
+                "platform" : "龙珠直播",
+                "url" : "http://star.longzhu.com/605"
+            },
+            {
+                "name" : "非著名的wAwa",
+                "platform" : "龙珠直播",
+                "url" : "http://star.longzhu.com/288"
+            },
+            {
+                "name" : "TGA STAR 长毛",
+                "platform" : "龙珠直播",
+                "url" : "http://star.longzhu.com/901"
+            },
+            {
+                "name" : "Miss",
+                "platform" : "龙珠直播",
+                "url" : "http://star.longzhu.com/miss"
+            },
+            {
+                "name" : "小苍MM",
+                "platform" : "龙珠直播",
+                "url" : "http://star.longzhu.com/520"
+            },
+            {
+                "name" : "米米米",
+                "platform" : "龙珠直播",
+                "url" : "http://star.longzhu.com/998"
+            },
+            {
+                "name" : "熊猫超人小智",
+                "platform" : "熊猫TV",
+                "url" : "http://www.panda.tv/2333"
+            },
+            {
+                "name" : "王校长",
+                "platform" : "熊猫TV",
+                "url" : "http://www.panda.tv/10000"
+            },
+            {
+                "name" : "SoloFeng",
+                "platform" : "虎牙直播",
+                "url" : "http://www.huya.com/lolff"
+            },
+            {
+                "name" : "霸哥啊 欢乐王者路",
+                "platform" : "虎牙直播",
+                "url" : "http://www.huya.com/bagea"
+            },
+            {
+                "name" : "ca&mei",
+                "platform" : "战旗TV",
+                "url" : "http://www.zhanqi.tv/caomei"
+            },
+            {
+                "name" : "冷小莫丨",
+                "platform" : "战旗TV",
+                "url" : "http://www.zhanqi.tv/lengxiaomo"
+            },
+            {
+                "name" : "weixiao",
+                "platform" : "战旗TV",
+                "url" : "http://www.zhanqi.tv/weixiao"
+            },
+            {
+                "name" : "gogoing",
+                "platform" : "战旗TV",
+                "url" : "http://www.zhanqi.tv/gogoing"
+            },
+            {
+                "name" : "iGkakao.",
+                "platform" : "战旗TV",
+                "url" : "http://www.zhanqi.tv/kakao"
+            },
+            {
+                "name" : "马上就有人鱼线的PDD",
+                "platform" : "战旗TV",
+                "url" : "http://www.zhanqi.tv/pdd"
+            },
+            {
+                "name" : "WExiye.",
+                "platform" : "战旗TV",
+                "url" : "http://www.zhanqi.tv/xiye"
+            },
+            {
+                "name" : "老实敦厚的笑笑",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/sunyalong"
+            },
+            {
+                "name" : "White55开解说",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/wt55kai"
+            },
+            {
+                "name" : "风中追风Fzz1",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/60062"
+            },
+            {
+                "name" : "誓约中二约",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/dushuren"
+            },
+            {
+                "name" : "lonely丶",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/8733"
+            },
+            {
+                "name" : "全民超人小智",
+                "platform" : "全民直播",
+                "url" : "http://www.quanmin.tv/star/2333"
+            }
+        ]
+    },
+    {
+        "type" : "炉石",
+        "anchors" :
+        [
+            {
+                "name" : "王师傅",
+                "platform" : "熊猫TV",
+                "url" : "http://www.panda.tv/10029"
+            },
+            {
+                "name" : "Sol君",
+                "platform" : "熊猫TV",
+                "url" : "http://www.panda.tv/31131"
+            },
+            {
+                "name" : "囚徒",
+                "platform" : "熊猫TV",
+                "url" : "http://www.panda.tv/10091"
+            },
+            {
+                "name" : "瓦莉拉的小伙伴",
+                "platform" : "熊猫TV",
+                "url" : "http://www.panda.tv/10027"
+            },
+            {
+                "name" : "冰蓝飞狐",
+                "platform" : "熊猫TV",
+                "url" : "http://www.panda.tv/10025"
+            },
+            {
+                "name" : "Igxingsu",
+                "platform" : "熊猫TV",
+                "url" : "http://www.panda.tv/10003"
+            },
+            {
+                "name" : "少帮主",
+                "platform" : "熊猫TV",
+                "url" : "http://www.panda.tv/10455"
+            },
+            {
+                "name" : "安德罗妮丶",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/16789"
+            },
+            {
+                "name" : "萌太奇5238",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/101342"
+            },
+            {
+                "name" : "熊jolababy",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/65962"
+            },
+            {
+                "name" : "秋日丶",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/25515"
+            },
+            {
+                "name" : "中华毅力帝",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/9401"
+            },
+            {
+                "name" : "大狗及其小伙伴",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/265322"
+            },
+            {
+                "name" : "wtybill",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/57321"
+            },
+            {
+                "name" : "只有十五岁的涛妹",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/32892"
+            },
+            {
+                "name" : "不二",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/13861"
+            },
+            {
+                "name" : "超老板威武",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/8655"
+            },
+            {
+                "name" : "刘飞儿faye",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/265438"
+            },
+            {
+                "name" : "低调的河马",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/268025"
+            },
+            {
+                "name" : "登陆已经过期",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/419311"
+            },
+            {
+                "name" : "Celestial死来死去",
+                "platform" : "斗鱼TV",
+                "url" : "http://www.douyutv.com/105313"
+            }
+        ]
+    }
+]
