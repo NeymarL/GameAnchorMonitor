@@ -109,17 +109,17 @@ function display($all_anchors, $memcache, $game_type)
     echo fread($file, filesize("header.html"));
     if ($game_type == "hs") {
         $game_type = "炉石";
-        echo '<a class="control-item ui-link" href="index.html/dota2.php"><strong>DOTA2</strong></a>
-            <a class="control-item ui-link" href="index.html/lol.php"><strong>LOL</strong></a>
-            <a class="control-item ui-link active" href="index.html/hs.php"><strong>炉石</strong> </a>';
+        echo '<a class="control-item ui-link" href="dota2.php"><strong>DOTA2</strong></a>
+            <a class="control-item ui-link" href="lol.php"><strong>LOL</strong></a>
+            <a class="control-item ui-link active" href="hs.php"><strong>炉石</strong> </a>';
     } else if ($game_type == "lol") {
-        echo '<a class="control-item ui-link" href="index.html/dota2.php"><strong>DOTA2</strong></a>
-            <a class="control-item ui-link active" href="index.html/lol.php"><strong>LOL</strong></a>
-            <a class="control-item ui-link" href="index.html/hs.php"><strong>炉石</strong> </a>';
+        echo '<a class="control-item ui-link" href="dota2.php"><strong>DOTA2</strong></a>
+            <a class="control-item ui-link active" href="lol.php"><strong>LOL</strong></a>
+            <a class="control-item ui-link" href="hs.php"><strong>炉石</strong> </a>';
     } else if ($game_type == "dota2") {
-        echo '<a class="control-item ui-link active" href="index.html/dota2.php"><strong>DOTA2</strong></a>
-            <a class="control-item ui-link" href="index.html/lol.php"><strong>LOL</strong></a>
-            <a class="control-item ui-link" href="index.html/hs.php"><strong>炉石</strong> </a>';
+        echo '<a class="control-item ui-link active" href="dota2.php"><strong>DOTA2</strong></a>
+            <a class="control-item ui-link" href="lol.php"><strong>LOL</strong></a>
+            <a class="control-item ui-link" href="hs.php"><strong>炉石</strong> </a>';
     }
     $file = fopen("middle.html", "r") or die("Unable to open file!");
     echo fread($file, filesize("middle.html"));
