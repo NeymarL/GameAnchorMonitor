@@ -3,4 +3,4 @@
 require 'monitor.php';
 
 $memcache = getMemCache();
-update($memcache, 5); // result store 3 minutes
+update($memcache, 300); // result store 5 minutes
