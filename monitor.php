@@ -57,6 +57,10 @@ function update($memcache, $time)
                 }
                 $domain = explode('/', $anchor["url"]);
                 $room_name = $domain[3];
+                if ($anchor["platform"] == "火猫TV") {
+                    // huomao's url is http://http://www.huomaotv.cn/live/rooo_number
+                    $rooo_name = $anchor["name"];
+                }
                 $subject = httpRequest($url);
                 if (preg_match('/' . $room_name . '/', $subject)) {
                     $memcache->set($anchor["name"], 1, 0, $time); // 1 代表在直播
