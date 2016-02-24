@@ -108,8 +108,8 @@ b, strong {
     padding-top: 45px;
 }
 .divOnlineContent{
-    margin:0 auto;width:100%;margin-top:15px;
+    margin:0 auto;width:100%;margin-top:15px;padding-left: 10%;
 }
 .divOfflineContent{
-    margin:0 auto;width:100%;margin-top:10px;
+    margin:0 auto;width:100%;margin-top:10px;padding-left: 10%;
 }
