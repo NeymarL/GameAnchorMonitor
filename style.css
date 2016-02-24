@@ -60,7 +60,7 @@ a:active {
 }
 b, strong {
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 2.2vw;
 }
 .content {
     position: absolute;
@@ -108,8 +108,8 @@ b, strong {
     padding-top: 45px;
 }
 .divOnlineContent{
-    margin:0 auto;width:550px;margin-top:15px;
+    margin:0 auto;width:650px;margin-top:15px;
 }
 .divOfflineContent{
-    margin:0 auto;width:550px;margin-top:10px;
+    margin:0 auto;width:650px;margin-top:10px;
 }
