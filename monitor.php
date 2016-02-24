@@ -3,8 +3,8 @@
 function getAnchors()
 {
     // 读取主播列表
-    $json_file = fopen("anchor.json", "r") or die("Unable to open file!");
-    $json = fread($json_file, filesize("anchor.json"));
+    $json_file = fopen("/var/www/GameAnchorMonitor/anchor.json", "r") or die("Unable to open file!");
+    $json = fread($json_file, filesize("/var/www/GameAnchorMonitor/anchor.json"));
     fclose($json_file);
     $all_anchors = json_decode($json, true);
     // var_dump($all_anchors);
@@ -59,11 +59,10 @@ function update($memcache, $time)
                 $room_name = $domain[3];
                 if ($anchor["platform"] == "火猫TV") {
                     // huomao's url is http://http://www.huomaotv.cn/live/rooo_number
-                    $rooo_name = $anchor["name"] . '\s*</span><span class="view">[0-9,]+</span>
-                        </p><i class="off" style="width: 230px; height: 129.375px;"></i><em';
+                    $rooo_name = $anchor["name"] . '教练mikasa\s*</span>\s*<span class="view">[0-9,]+</span>\s*</p>\s*<i class="off" style="width: 230px; height: 129.375px;"></i><em';
                 }
                 $subject = httpRequest($url);
-                if (preg_match('/' . $room_name . '/', $subject)) {
+                if (preg_match('#' . $room_name . '#', $subject)) {
                     $memcache->set($anchor["name"], 1, 0, $time); // 1 代表在直播
                     // echo $anchor["name"] . "\t正在直播\n";
                 } else {
