@@ -139,7 +139,7 @@ function display($all_anchors, $memcache, $game_type)
                 } else {
                     $online .= '<div><span style="width:170px;float:left;"><strong>' . $anchor["name"] . '</strong></span>
                             <span style="color:red;width:40px;"><strong>直播</strong></span>
-                            <span style="margin-left:25px;">' . $anchor["url"] . '</span></div>';
+                            <span style="margin-left:25px; font-size:2vw">' . $anchor["url"] . '</span></div>';
                 }
             }
         }

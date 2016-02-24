@@ -60,6 +60,7 @@ a:active {
 }
 b, strong {
     font-weight: 700;
+    font-size: 2vw;
 }
 .content {
     position: absolute;
