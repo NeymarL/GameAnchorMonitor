@@ -32,7 +32,7 @@ function update($memcache, $time)
             }
             //echo $anchor["platform"] . "\t";
             if ($anchor["platform"] == "熊猫TV" || $anchor["platform"] == "战旗TV" ||
-                $anchor["platform"] == "全民直播" || $anchor["platform"] == "火猫TV") {
+                $anchor["platform"] == "全民直播") {
                 # 正在直播的条件 : 正在直播列表中存在该房间
                 $url = '';
                 if ($anchor["platform"] == "熊猫TV") {
@@ -57,10 +57,10 @@ function update($memcache, $time)
                 }
                 $domain = explode('/', $anchor["url"]);
                 $room_name = $domain[3];
-                if ($anchor["platform"] == "火猫TV") {
+                /*if ($anchor["platform"] == "火猫TV") {
                     // huomao's url is http://http://www.huomaotv.cn/live/rooo_number
                     $rooo_name = $anchor["name"] . '\s*</span>\s*<span class="view">[0-9,]+</span>\s*</p>\s*<i class="off" style="width: 230px; height: 129.375px;"></i><em';
-                }
+                }*/
                 $subject = httpRequest($url);
                 if (preg_match('#' . $room_name . '#', $subject)) {
                     $memcache->set($anchor["name"], 1, 0, $time); // 1 代表在直播
@@ -102,6 +102,9 @@ function update($memcache, $time)
                     $memcache->set($anchor["name"], 0, 0, $time); // 0 代表不在直播
                     // echo $anchor["name"] . "\t不在直播\n";
                 }
+            }
+            else if($anchor["platform"] == "火猫TV"){
+                $memcache->set($anchor["name"], 0, 0, $time); // 0 代表不在直播
             }
         }
     }
